@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -17,14 +18,33 @@ body{
     height: 100%;
     background-color: wheat;
 }
+
 .phone_ver{
     position: relative;
+    background-color: rgb(108, 152, 235);
 
 }
 .top_main img{
     max-width:100%; 
     max-height:auto;
 }
+/* .top_main #happy
+{
+    position: absolute;
+    font-size: 50px;
+    color:#7961e6
+}
+.top_main #suyun
+{
+    position: absolute;
+    margin-left: 200px;
+    font-size: 50px;
+}
+.top_main #day
+{
+    position: absolute;
+    font-size: 50px;
+} */
 .team{
     display: flex;
     justify-content: center;
@@ -46,14 +66,14 @@ body{
     display:flex;
     margin:5px 5px 10px 5px;
     padding-bottom: 5px;
-    border-bottom:1px solid #EFEFEF;
+    border-bottom:2px solid #EFEFEF;
 }
 .fan_img{
     float: left;
     padding-top: 5px;
 }
 .fan_img img{
-    border: 2px solid #cccccc;
+    border: 2px solid #5c8cf3;
 }
 .fan_info{
     display: flex;
@@ -63,9 +83,13 @@ body{
     .fan_name{
         font-weight: 800;
     }
+    .fan_from{
+        color:rgba(19, 16, 16, 0.692)
+    }
 
 .card_des{
     margin-top: 5px;
+    color:#000000
 }
 .fan_msgs .card .fan_msg{
     display:flex;
@@ -78,16 +102,40 @@ body{
 
 }
 
-
-@media screen and (min-width: 780px) { 
-    .phone_ver { 
-        display: none; 
-    } 
-}
-@media screen and (max-width: 780px){
-    .pc_ver{
-        display: none;
+@media screen and (min-width: 770px){
+    .phone_ver{
+      display: none;
     }
+    .pc_ver{
+      display: block;
+    }
+  }
+
+ @media screen and (max-width: 771px){
+    .phone_ver{
+      display: black;
+    }
+    .pc_ver{
+      display: none;
+    }
+}
+
+.pc_ver
+{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    padding:5px;
+    transform: translate(-50%,-50%);
+    font-size: 14px;
+    line-height: 28px;
+    border-radius: 15px;
+    background: #7b81cf;
+}
+.pc_ver .server_msg
+{
+    padding: 20px;
+    border-radius: 15px;
 }
 
 
