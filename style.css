@@ -22,6 +22,9 @@ body{
 .phone_ver{
     position: relative;
     background-color: rgb(108, 152, 235);
+    /* background-image: url("/img/main.png");
+    background-size: 100%; */
+
 
 }
 .top_main img{
