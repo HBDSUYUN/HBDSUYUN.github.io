@@ -28,9 +28,9 @@ body{
 
 .phone_ver{
     position: relative;
-    background-color: rgb(108, 152, 235);
-    /* background-image: url("/img/main.png");
-    background-size: 100%; */
+    /* background-color: rgb(108, 152, 235); */
+    background-image: url("/img/pattern.png");
+    background-size: 100%;
 }
 
 .top_main img{
@@ -191,13 +191,14 @@ body{
     transform: translate(-50%,-50%);
     font-size: 14px;
     line-height: 28px;
-    border-radius: 15px;
-    background: #7b81cf;
+    /* border-radius: 15px;
+    background: #7b81cf; */
 }
 .pc_ver .server_msg
 {
     padding: 20px;
     border-radius: 15px;
+    text-align: center;
 }
 
 
